@@ -40,6 +40,7 @@ class $modify(CCScheduler) {
 
 class $modify(PlayLayer) {
     bool init(GJGameLevel* gj) {
+        Display::setDefaultDisplay(3, "");
 
         if (!PlayLayer::init(gj)) return false;
 
