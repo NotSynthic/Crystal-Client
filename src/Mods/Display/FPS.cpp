@@ -40,7 +40,6 @@ class $modify(CCScheduler) {
 
 class $modify(PlayLayer) {
     bool init(GJGameLevel* gj) {
-        Display::setDefaultDisplay(3, "60/60 FPS/TPS");
 
         if (!PlayLayer::init(gj)) return false;
 
